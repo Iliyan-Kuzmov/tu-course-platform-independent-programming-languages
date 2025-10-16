@@ -1,0 +1,44 @@
+package zad;
+import java.util.Scanner;
+
+public class zad1 {
+	public static void main(String[] args) {
+		printIntroduction();
+		Scanner sc = new Scanner(System.in);
+		double result =getBMI(sc);
+		String status = getStatus(result);
+		ReportResults(1, result, status);
+	}
+	public static void printIntroduction(){
+		System.out.println("text");
+	}
+	public static double getBMI(Scanner sc) {
+		System.out.println("Vuvedete visochina v inchove: ");
+		double visochina = sc.nextDouble();
+		System.out.println("Vuvedete tegloto si v paundove: ");
+		double teglo = sc.nextDouble();
+		double result = bmiFor(visochina, teglo);
+		return result;
+	}
+	public static double bmiFor(double visochina, double teglo) {
+		return teglo*703/ (visochina*visochina);
+	}
+	public static String getStatus(double result) {
+		if (result <= 18.5) {
+			return "underweight";
+		}
+		else if(result <= 25) {
+			return "normal";
+		}
+		else if(result <= 30) {
+			return "overweight";
+		}
+		else {
+			return "obese";
+		}
+	}
+	public static void ReportResults(int n, double index, String status) {
+		System.out.printf("Person %d has BMI= %.2fand your status is %s", n, index,status);
+	}
+	
+}
