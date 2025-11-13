@@ -5,6 +5,7 @@
     <mapping directory="$PROJECT_DIR$/exercises/AssetManagment" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lab/week6" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lab/week7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab/week8" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/seminar lab/week7" vcs="Git" />
   </component>
 </project>
