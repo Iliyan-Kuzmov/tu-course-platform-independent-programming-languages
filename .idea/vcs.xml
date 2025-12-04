@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GitSharedSettings">
+    <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
+  </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/exercises/AssetManagment" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/exercises/sem7" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lab/week10" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/lab/week11" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lab/week6" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lab/week7" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lab/week8" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/lab/week9" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/seminar lab/week11" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/seminar lab/week7" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/seminar lab/week9" vcs="Git" />
   </component>
